@@ -1,0 +1,167 @@
+
+.container{
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 588px;
+    border-radius: 10px;
+    margin-top: 2px;
+    border-radius: 50px;
+}
+.bgcolo{
+    width: 16rem;
+    height: 21rem ;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    border-radius: 18rem;
+    background: transparent;
+    border: 5px solid #da9100;  
+    position: relative;
+    bottom: 480px; 
+    left: 10px;
+    padding: 7px;
+}
+#countnum{
+    width: 160px;
+    border: 4px solid #da9100;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: end;
+    margin-top: 35px;
+    margin-left: 22px;
+    color: white;
+}
+.container1{
+   border: 3px solid #da9100;
+   background-color: black;
+   border-radius: 20px;
+   width: 255px;
+   padding: 10px;
+   margin-top: 50px;
+   position: relative;
+   right: 23px;
+}
+.colors{
+    height: 30px;
+    width: 20px;
+    border: 3px solid ;
+}
+.btncircl{
+    height: 115px;
+    border: 2px solid goldenrod;
+}
+.btncircl:hover{
+    height: 115px;
+    border: 4px solid black;
+}
+
+#body1{
+    background: white;
+    background-size: cover;
+}
+.btncontainer{
+    margin-left: 570px;
+    margin-bottom: 10px;
+}
+.ramzanbtn{
+    width: 150px;
+    font-size: 14px;
+}
+.displaybtn{
+    margin-left: 100px;
+    width: 150px;
+    font-size: 14px;
+}
+.backimg{
+    background-image: url(Images/bgimg.png);
+    background-size: 397px 755px;
+    background-repeat: no-repeat;
+}
+.popup-open{
+    width: 350px;
+    margin-left: 620px;
+}
+.allbtn{
+    margin-left: 1020px;
+}
+
+@media only screen and (max-width: 767px){
+    body{
+        background-size: contain;
+    }
+    #sizechange{
+        padding: 3px;
+    }
+    .container{
+        width: 370px;
+        height: 580px;
+        padding: 2px;
+        margin-top: 0px;
+    }
+    .bgcolo{
+        margin-left: 2rem;
+        padding: 2px;
+        height: 320px;
+        width: 240px;
+        position: relative;
+        bottom: 440px; 
+        left: 30px;
+        padding: 0px;
+    }
+
+    #btncircl{
+        height: 100px;
+    }
+    .changetheme{
+        display: none;
+    }
+    .btncontainer{
+        margin-left: 40px;
+        margin-bottom: 0px;
+    }
+    .ramzanbtn{
+        width: 130px;
+        font-size: 12px;
+
+    }
+    .displaybtn{
+        margin-left: 50px;
+        width: 130px;
+        font-size: 12px;
+    }
+    .popup-open{
+        width: 320px;
+        margin-left: 43px;
+        margin-top: 40px;
+    }
+    .allbtn{
+        margin-left: 0px;
+    }
+}
+@media only screen and  (min-width: 768px) and (max-width: 1200px){
+
+    .container{
+        width: 570px;
+        height: 780px;
+    }
+    .bgcolo{
+        margin-left: 8.5rem;
+        padding: 2px;
+        position: relative;
+        bottom: 550px; 
+        left: 30px;
+    }
+    .btncontainer{
+        margin-left: 200px;
+        margin-bottom: 10px;
+    }
+    .popup-open{
+        width: 420px;
+        margin-left: 190px;
+        margin-top: 10px;
+    }
+    .backimg{
+        background-size: 397px 1020px;
+    }
+   
+}
