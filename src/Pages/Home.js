@@ -155,7 +155,7 @@ function Home() {
 
   const [modalShow, setModalShow] = React.useState(false);   //Save button popup.//
 
-  const [modalShowi, SetModalShow] = React.useState(false);   //..//
+  // const [modalShowi, SetModalShow] = React.useState(false);   //..//
 
 
 
@@ -409,7 +409,7 @@ function Home() {
           <Offcanvas.Body className="m-3  d-flex" style={{ border: '1px solid gray', borderRadius: '20px', backgroundColor: 'lightgray' }}>
             <h5 >Zikr-name:-</h5>
             <span className="allbtn ">
-              <Button variant="outline-danger" className="rounded-pill" onClick={() => SetModalShow(true)}>Delete</Button>{' '}
+              <Button variant="outline-danger" className="rounded-pill" onClick={() => setModalShow(true)}>Delete</Button>{' '}
               <Button variant="outline-primary" className="rounded-pill">Continue</Button>{' '}
               <Button variant="outline-secondary"><Image src={Pencil}></Image></Button>{' '}
             </span>
